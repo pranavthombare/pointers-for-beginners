@@ -2,6 +2,10 @@
 
 This repository goes through the basic understanding of pointers which a beginner(including me) faces problem with.
 
+In order to run the code, enter the following command in your terminal:
+
+` g++ -o a Pointers.cpp; ./a `
+
 ## 1. Introduction
 
 Pointers have always been a tough area to understand if not practiced or explained properly. But before we go to the syntax, we must know what is a pointer and why it is used in C++.
