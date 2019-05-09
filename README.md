@@ -33,3 +33,7 @@ The basic syntax of a pointer is denoted by '*'. It is declared as following:
 Where type can be replaced with any data type; int, float, char etc.
 
 A basic program can be found in this repository which will go through all the concepts of pointers step-by-step with increasing complexity.
+
+# Pointers As Arrays
+
+One interesting way to use pointers is to use them as an arrays.

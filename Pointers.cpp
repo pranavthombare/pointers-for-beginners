@@ -46,10 +46,15 @@ int main()
     // So if we increment the pointer by 1, instead of adding 1 to the address it will move to
     // the next address location ccording to the size of the data type.
     
-    for(int i=0;i<5;i++)
-        cout<<endl<<pointerToArray+i<<endl; //it'll end up showing random values because I haven't initialised the array.
+    cout<<endl<<"Entering the values in the array"<<endl;
+    for ( int i = 0; i < 5; i++ ) {
+        *(pointerToArray + i)=i;
+    }
     
-    cout<<"ignore the garbage values for now"<<endl;
+    for(int i=0;i<5;i++)
+        cout << "*(pointerToArray + " << i << ") : "<< *(pointerToArray + i) << endl;
+    //Here we can see how the array is being accessed by the pointer.
+
     
     
     return 0;
